@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .signin_page{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input{
+            border: 1px solid whitesmoke;
+            background-color: whitesmoke;
+            height: 50px;
+            width: 260px;
+            border-radius: 10px;
+        }
+        .a1{
+            border: 1px solid black;
+            height: 50px;
+            width: 260px;
+            border-radius: 10px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .a2,.a3{
+            display: inline-block;
+            opacity: 0.3;
+            margin-top: -3px;
+        }
+        .a4{
+            border: 1px solid whitesmoke ;
+            height: 50px;
+            width: 260px;
+            border-radius: 10px;
+            background-color: whitesmoke;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .a5{
+            border: 1px solid white;
+            height: 50px;
+            width: 260px;
+            border-radius: 10px;
+            background-color:white; 
+            color: black;
+        }
+        .a5:hover{
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+  
+    <div style="background-color: black;height: 50px;color: white;padding: 10px;"><h4 style="font-size: 25px;margin-left: 25px;">uber</h4>r</div>
+   <div class="signin_page">
+    <div id="pd">
+        <h5 style="font-size: 20px;opacity: 0.7;">What's your phone number or <br> email?</h5>
+        <input type="email" name="email" id="email" placeholder="  Enter phone number or email">
+        <br><br>
+        <div class="a1"><a href="" style="color: white;text-decoration: none;">Continue</a></div>
+        <div class="a2" style="border: 1px solid; width: 100px;"></div>or
+        <div class="a3" style="border: 1px solid;width: 100px;"></div>
+        <br><br>
+        <div class="a4"><a href="" style="text-decoration: none;"> <img src="https://img.icons8.com/?size=48&id=17949&format=png" height="40px" alt="">Continue with Google</a></div>
+        <br>
+        <div class="a4"><a href="" style="text-decoration: none;"> <img src="data:image/jpeg;base64,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" height="40px" alt="">Continue with Apple</a></div>
+        <br>
+        <div class="a4"><a href="" style="text-decoration: none;"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAclBMVEUYd/L///8AcPHz9v4AbvEAaPGzyfrx9/4SdfLd6PwAa/IvffP8/f+YvPj4+/4AbfK6zvrl7v3r8v5xpfawy/rF2Psvg/NWlPRcl/RuofaLsvfV5PxMj/QefvKQt/ikwvkAYvG70/rO3vuFrfdjnPVBifRzmLfyAAAEuElEQVR4nO3d2XaqMBQG4BChhCnIqAJKcXj/VzxgrUOPNkgJe4eV/6beuFa+JkDMBDFu4SmhjCgURknK7wDk9jFOLKUoXZiVxM8w8cqFLtqQuKv4f4yjpqXTOD8xztqELtXQmGvnERNtKHSZhoduonuMXyh36d+HFf4dJvXUxnjpDVNWCjeyLrQqvzG8CJWumLZqwoJfMBlR3NJqSPaFiZMQuix/T9j1BFrMXv2K6apm32H4QdFH/2PcA28x0XYGFdNWzTZqMcsZXDFdwqVB/ETZTtljzMQnfB6trGtnnDizuPy7uA5JLehCjBUrJbv51MyOHBXvY95Cj6SayfXf3gEqks8HkxMPugzjZUYUHR0dHZ0/hz38UTSMMErNMAzNc8KvT5QyphyMUZNuq00R1OnynLSug12RHKvTltBOxRQhsdDNN0FTOrHN/esUkc+5HUdOWWZNXSSrnKnQj2cWS7Iovp+E/BluL+KoxD8qQa08tX+D3BIg/73IzCrrBemaHW4Mo6e0LwU7hnmHqL8FN4ZWzRsU3BhzU75lwYxxk3eaGG6Me4jFxVcDw9zEfteCFhOu321jeDH05IjLrgiGeb2f+vgxdNevL6YChq6GNDKcmO8FLfPAHN9+wqDFMG85zIISs3r/cYkVw1g90IIR4w28YlBijkMtCDFhMyMMHWzBh6Hrt8rPH4INY/W+l8Vlln7UwV3qNbIhTbff736eBZtqy+hjkA02M9Lribk/5PRr+P8h0KX/EVr1qZb6ZKIr+ZOYPZ4yi4KoQOkWGAktfoDt2ngVqxFilmpUSxtrL7I4K2T335dhwjuzn6KfULomFA2XxcpUTHs3E/X/S3UsxBQ8M32VlrnSxe8YrtLGECFGpa1UIsxCpT1uQoxCFaMxaKMxWKMxWKMxWKMxWKMxWKMxWKMxWKMxwHGtF/kUYT5ffbMN0PBA8PEqgrVZ/OUXPz6WINtgmTdgzWKPgBxQwLxh68kE4SCDnZIwzueMMDDD0JIwMKctSMLALGmQhIE5oEAOhsNscJSDiWBmbuRgGpiZWzmYAKYPKgeTzAkDdHSMFAwHOjpGCiYCmu2UgslAKJIw9ZwwxZwwCdAIgAyMDbXaSQbGOc2oZjKoE8pkYMAOjpaBCWAocjAHqNVOEjAc7Nx4CZgIbB2qBEwJdWcmxCu5/SKiUj//Fk/hDsJl1Hye0BJNaVjh0y9CTtu8+jcyU4Qx9RpNmGgM1mgM1mgM1mgM1mgM1mgM1mgM1mgM1mgM1mgM1mgM1mgM1mgM1mgM1mgM1mgM1mgM1mgM1mgM1kBhpKxWg8F4ct50CoPJ5byDFgTDKiJluRoIhm6IlMORQTBuIOeN2iAYK5XzrnOYmnGIlN03EBiWc2LIeBMfBMZMDGI0EjZGQmDCpsVEEtoZAIblUYvhxfi3AABMWPAWY+zH755Nj2He3ugw9mH0qpke4x7sM0ZC1UyOOVfMGcNH3088OYYG/IIZ/8DxqTGXF3edMUYz8u15YgzbNsYN4+/Uxuz8O4wRj7tzfVoMTS5Hql8wRnwcs4s2Kca8vlDtG2PE6xF/2EyJsdbXo+6vGMM+jqeZEGMdbzuPbpi2kzZa/3k6TNclu+YfkUdPnZ8qbt8AAAAASUVORK5CYII=" height="40px" alt="">Continue with Facebook</a></div>
+        <div class="a2" style="border: 1px solid; width: 100px;"></div>or
+        <div class="a3" style="border: 1px solid;width: 100px;"></div>
+        
+        <div class="a5"><a href="" style="text-decoration: none;"><img src="data:image/png;base64,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"height="30px" width="30px" alt="">-Login with QR code </a></div>
+         <p>By proceeding, you consent to get calls, WhatsApp or <br> SMS messages, including by automated means, from <br> Uber and its affiliates to the number provided.</p>
+    </div>
+   </div>
+</body>
+</html>
